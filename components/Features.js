@@ -6,84 +6,78 @@ function Features() {
   <div
   class="text-body text-center d-flex flex-column align-items-center"
 >
-  <h2 class="title fw-bold">Tailor-made features</h2>
+  <h2 class="title fw-bold">Who we help!</h2>
   <p class="">
-    Lorem ipsum is common placeholder text used to demonstrate the
-    graphic elements of a document or visual presentation.
+    We provide Comprehensive accountancy services for every business type, whether you're an Individual, Sole Trader, Limited Company, Small Business, Freelancer, Contractor, Partnership, Landlord or Start Up we have the online accounting package for you.
+
   </p>
 </div>
 <div
   class="container-body row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4"
 >
   <div class="col d-flex flex-column justify-content-center pt-5">
-    <div class="icon d-flex justify-content-center">
-      <img src="./Images/Base-feature-icon-1.svg" alt="" srcset="" />
+    <div class="icon d-flex justify-content-center ">
+      <img class="icon-image img-fluid" src="./Images/iqtick.png" alt="" srcset="" />
     </div>
     <div class="text">
-      <div class="title fw-bold text-center">Robust workflow</div>
+      <div class="title fw-bold text-center">Individual</div>
       <div class="description text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-        erat nibh tristique ipsum.
+        Simplicity and complete accounting support for an unbeatable price
       </div>
     </div>
   </div>
   <div class="col d-flex flex-column justify-content-center pt-5">
     <div class="icon d-flex justify-content-center">
-      <img src="./Images/Base-feature-icon-3.svg" alt="" srcset="" />
+      <img class="icon-image img-fluid" src="./Images/iqtick.png" alt="" srcset="" />
     </div>
     <div class="text">
-      <div class="title fw-bold text-center">Flexibility</div>
+      <div class="title fw-bold text-center">Sole Trader</div>
       <div class="description text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-        erat nibh tristique ipsum.
+        Simplicity and complete accounting support for an unbeatable price
       </div>
     </div>
   </div>
   <div class="col d-flex flex-column justify-content-center pt-5">
     <div class="icon d-flex justify-content-center">
-      <img src="./Images/Base-feature-icon-5.svg" alt="" srcset="" />
+      <img class="icon-image img-fluid" src="./Images/iqtick.png" alt="" srcset="" />
     </div>
     <div class="text">
-      <div class="title fw-bold text-center">User friendly</div>
+      <div class="title fw-bold text-center">Limited Company</div>
       <div class="description text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-        erat nibh tristique ipsum.
+        Expert accounting assistance for your growing business
       </div>
     </div>
   </div>
   <div class="col d-flex flex-column justify-content-center pt-5">
     <div class="icon d-flex justify-content-center">
-      <img src="./Images/Base-feature-icon-7.svg" alt="" srcset="" />
+      <img class="icon-image img-fluid" src="./Images/iqtick.png" alt="" srcset="" />
     </div>
     <div class="text">
-      <div class="title fw-bold text-center">Multiple layouts</div>
+      <div class="title fw-bold text-center">Small Business</div>
       <div class="description text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-        erat nibh tristique ipsum.
+        Expert accountancy services for small-businesses
       </div>
     </div>
   </div>
   <div class="col d-flex flex-column justify-content-center pt-5">
     <div class="icon d-flex justify-content-center">
-      <img src="./Images/Base-feature-icon-2.svg" alt="" srcset="" />
+      <img class="icon-image img-fluid" src="./Images/iqtick.png" alt="" srcset="" />
     </div>
     <div class="text">
-      <div class="title fw-bold text-center">Better components</div>
+      <div class="title fw-bold text-center">Freelancer</div>
       <div class="description text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-        erat nibh tristique ipsum.
+       Expert accountancy services for self-employed freelancers
       </div>
     </div>
   </div>
   <div class="col d-flex flex-column justify-content-center pt-5">
     <div class="icon d-flex justify-content-center">
-      <img src="./Images/Base-feature-icon-8.svg" alt="" srcset="" />
+      <img class="icon-image img-fluid" src="./Images/iqtick.png" alt="" srcset="" />
     </div>
     <div class="text">
-      <div class="title fw-bold text-center">Well organised</div>
+      <div class="title fw-bold text-center">Contractors</div>
       <div class="description text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-        erat nibh tristique ipsum.
+        Experienced accounting services for contractors
       </div>
     </div>
   </div>

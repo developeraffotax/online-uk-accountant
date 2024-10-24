@@ -7,14 +7,14 @@ function Navbar() {
   <a class="navbar-brand me-5" href="#">
     <img
       class="BrandLogo"
-      src="./Images/Logo-BgWhite.svg"
+      src="./Images/logoiq.png"
       alt=""
       srcset=""
     />
   </a>
   <ul class="navbar-nav d-none d-lg-flex">
     <li class="nav-item">
-      <a class="nav-link" href="#Features">Features</a>
+      <a class="nav-link" href="#Features">Who we help</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#Pricing">Pricing</a>
@@ -27,25 +27,11 @@ function Navbar() {
     </li>
   </ul>
 </div>
-<div class="nav-right d-flex align-items-center">
-  <div class="badges-items me- d-none d-sm-block">
-    <a class="badge-item text-decoration-none" href="#1">
-      <img
-        class="item"
-        src="./Images/Store badge.svg"
-        alt=""
-        srcset=""
-      />
-    </a>
-    <a class="badge-item text-decoration-none" href="#2">
-      <img
-        class="item"
-        src="./Images/Store badge-1.svg"
-        alt=""
-        srcset=""
-      />
-    </a>
-  </div>
+
+
+
+
+
   <button
     class="btn collapsed d-lg-none"
     type="button"
@@ -88,24 +74,7 @@ function Navbar() {
         <a class="nav-link" href="#FAQ">Help</a>
       </li>
     </ul>
-    <div class="badges-items h-100 mt-3 d-flex flex-column">
-      <a class="badge-item text-decoration-none" href="#1">
-        <img
-          class="item"
-          src="./Images/Store badge.svg"
-          alt=""
-          srcset=""
-        />
-      </a>
-      <a class="badge-item text-decoration-none" href="#2">
-        <img
-          class="item"
-          src="./Images/Store badge-1.svg"
-          alt=""
-          srcset=""
-        />
-      </a>
-    </div>
+    
   </div>
 </div>
     `;

@@ -37,7 +37,7 @@ Global Settings
   --fs-bodyLG: 18px;
   --fs-bodyMD: 16px;
   --fs-bodySM: 14px;
-  --lh-displayXL: 72px;
+  --lh-displayXL: 62px;
   --lh-displayLG: 60px;
   --lh-displayMD: 45px;
   --lh-displaySM: 40px;
@@ -585,4 +585,30 @@ ArrowToTop Section
   cursor: pointer;
   transition: all 0.5s ease;
   z-index: 20;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon-image {
+  width: 100px;
+  height: 100px;
+  
 }

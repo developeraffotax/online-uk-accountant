@@ -9,24 +9,21 @@ function Herosection() {
           <div class="text-wrapper col-12 col-lg-7">
             <div class="text-body">
               <h1 class=" fw-bold">
-                The easiest way to manage projects
+                We provide online accountancy services to UK businessess
               </h1>
               <p class="mt-3">
-                From the small stuff to the big picture, organizes the work so
-                teams know what to do, why it matters, and how to get it done.
+                Whether you are an Individual, Sole Trader, Limited Company, Small Business, Freelancer, Contractor, Partnership, Landlord or Start Up we have the online accounting package for you.
               </p>
             </div>
             <div class="btns-group mt-3">
-              <a class="button btn-theme-default" href="#">Get Started</a>
-              <a class="button btn-theme-2" href="#"
-                ><i class="bi bi-play-circle me-2"></i> Watch Video</a
-              >
+              <a class="button btn-theme-default" href="#">Contact Us</a>
+              
             </div>
           </div>
           <div
             class="mockup-img col-12 col-lg-5 overflow-hidden d-flex justify-content-center"
           >
-            <img class="" src="./Images/mockup-mobile1.png" alt="" id="" />
+            <img class="" src="./Images/iqhero.png" alt="" id="" />
           </div>
         </div>
         
