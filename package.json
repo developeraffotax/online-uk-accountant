@@ -2,9 +2,9 @@
   "name": "agency-website",
   "version": "1.0.0",
   "description": "![GitHub repo size](https://img.shields.io/github/repo-size/SuccessfullSites/Agency-Website)\r ![GitHub stars](https://img.shields.io/github/stars/SuccessfullSites/Agency-Website?style=social)\r ![GitHub forks](https://img.shields.io/github/forks/SuccessfullSites/Agency-Website?style=social)",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

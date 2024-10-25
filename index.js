@@ -16,8 +16,6 @@ app.post('/contact/post', ContactController.sendMessage);
 
 
 
-
-
 app.use(express.static("./views"));
 
 app.get("/success", (req, res) => {
@@ -25,6 +23,10 @@ app.get("/success", (req, res) => {
   });
 
 app.get("*", (req, res) => {
+
+
+  console.log('Server is running!')
+
   res.sendFile(path.resolve(__dirname, "./views", "index.html"));
 });
 
