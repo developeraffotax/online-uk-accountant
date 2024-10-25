@@ -7,7 +7,7 @@ const ContactController = require('./src/controllers/ContactController')
 const app = express();
 dotenv.config();
 app.use(bodyParser.urlencoded({ extended: false }));
-// app.use(bodyParser.json());
+app.use(bodyParser.json());
 
 
 
