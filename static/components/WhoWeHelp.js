@@ -1,5 +1,5 @@
-function Features() {
-  const Features = document.getElementById("who-we-help");
+function WhoWeHelp() {
+  const WhoWeHelp = document.getElementById("who-we-help");
   const Container = document.createElement("div");
   Container.classList.add("container");
   Container.innerHTML = `
@@ -83,6 +83,6 @@ function Features() {
   </div>
 </div>
     `;
-  Features.appendChild(Container);
+  WhoWeHelp.appendChild(Container);
 }
-Features();
+WhoWeHelp();
