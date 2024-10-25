@@ -16,10 +16,10 @@ app.post('/contact/post', ContactController.sendMessage);
 
 
 
-app.use(express.static("views"));
+app.use(express.static("./static"));
 
 app.get("/success", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "./views", "success.html"));
+    res.sendFile(path.resolve(__dirname, "./static", "success.html"));
   });
 
 app.get("*", (req, res) => {
@@ -27,7 +27,7 @@ app.get("*", (req, res) => {
 
   console.log('Server is running!')
 
-  res.sendFile(path.resolve(__dirname, "./views", "index.html"));
+  res.sendFile(path.resolve(__dirname, "./static", "index.html"));
 });
 
 
