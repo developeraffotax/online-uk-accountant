@@ -557,14 +557,18 @@ Footer Section
 
 ***/
 #Footer {
-  background-color: var(--black);
+  background-color: var(--neutral-100);
 }
 #Footer a {
-  color: var(--white);
+  color: var(--black);
   padding-left: 0px;
 }
 #Footer a:hover {
-  color: var(--secondary-300);
+  color: var(--primary-600);
+}
+
+#Footer .black {
+  color: var(--black);
 }
 /*** 
 
@@ -612,3 +616,91 @@ ArrowToTop Section
   height: 100px;
   
 }
+
+
+
+#our-services {
+  padding: 60px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+#who-we-help {
+  padding: 100px 0px;
+}
+
+
+#contact-us {
+  padding: 100px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.services-container {
+  margin-top: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgb(234,223,255);
+  background: linear-gradient(200deg, rgba(234,223,255,1) 0%, rgba(98,49,181,1) 100%);
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  align-items: center;
+}
+
+.service-item {
+  background: #EEE4FF;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+  cursor: pointer;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.service-item h2 {
+  margin: 10px 0;
+  color: #333;
+  font-size: larger;
+}
+
+.service-item p {
+  color: #555;
+}
+
+
+

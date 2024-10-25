@@ -13,18 +13,32 @@ function Navbar() {
     />
   </a>
   <ul class="navbar-nav d-none d-lg-flex">
-    <li class="nav-item">
-      <a class="nav-link" href="#Features">Who we help</a>
+
+  <li class="nav-item">
+      <a class="nav-link" href="#Herosection">Home</a>
     </li>
+
     <li class="nav-item">
-      <a class="nav-link" href="#Pricing">Pricing</a>
+      <a class="nav-link" href="#our-services">Our Services</a>
     </li>
+
+
     <li class="nav-item">
-      <a class="nav-link" href="#Careers">Careers</a>
+      <a class="nav-link" href="#who-we-help">Who we help</a>
     </li>
+    
+   
+
     <li class="nav-item">
-      <a class="nav-link" href="#FAQ">Help</a>
+      <a class="nav-link" href="#about-us">About Us</a>
     </li>
+
+     <li class="nav-item">
+      <a class="nav-link" href="#contact-us">Contact Us</a>
+    </li>
+
+    
+   
   </ul>
 </div>
 

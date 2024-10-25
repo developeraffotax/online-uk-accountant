@@ -1,0 +1,19 @@
+{
+  "name": "agency-website",
+  "version": "1.0.0",
+  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/SuccessfullSites/Agency-Website)\r ![GitHub stars](https://img.shields.io/github/stars/SuccessfullSites/Agency-Website?style=social)\r ![GitHub forks](https://img.shields.io/github/forks/SuccessfullSites/Agency-Website?style=social)",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7"
+  }
+}

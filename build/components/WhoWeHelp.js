@@ -1,5 +1,5 @@
 function Features() {
-  const Features = document.getElementById("Features");
+  const Features = document.getElementById("who-we-help");
   const Container = document.createElement("div");
   Container.classList.add("container");
   Container.innerHTML = `
