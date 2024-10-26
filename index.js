@@ -28,7 +28,7 @@ app.get("*", (req, res) => {
   console.log('Server is running!')
 
   res.sendFile(path.resolve(__dirname, "public", "index.html"));
-  console.log(path.resolve(__dirname, "public", "index.html"));
+  
 });
 
 
