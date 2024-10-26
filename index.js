@@ -16,7 +16,7 @@ app.post('/contact/post', ContactController.sendMessage);
 
 
 
-app.use(express.static("public"));
+app.use(express.static(path.resolve(__dirname, "public")));
 
 app.get("/success", (req, res) => {
     res.sendFile(path.resolve(__dirname, "public", "success.html"));
