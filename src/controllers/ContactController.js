@@ -5,10 +5,11 @@ exports.sendMessage = async (req, res) => {
   const { fullname, email, phone, message } = req.body;
 
   try {
+    
     const result = await sendMail(fullname, email, phone, message);
-
+    
     if (result) {
-      res.sendFile(path.resolve(__dirname, "public", "success.html"));
+      res.sendFile(path.resolve(__dirname, "../../" ,"public/success.html"));
     } else {
       res.status(404).json({ message: "Failed to send message" });
     }
