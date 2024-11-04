@@ -4,7 +4,7 @@ function Navbar() {
   Container.classList.add("container");
   Container.innerHTML = `
   <div class="nav-left d-flex" id="navbarNav">
-  <a class="navbar-brand me-5" href="#">
+  <a class="navbar-brand me-5" href="/index.html">
     <img
       class="BrandLogo"
       src="./Images/logoiq.png"
@@ -62,7 +62,7 @@ function Navbar() {
 >
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasRightLabel">
-      Offcanvas right
+      Menu
     </h5>
     <button
       type="button"

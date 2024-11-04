@@ -8,7 +8,7 @@ function OurServices() {
   
     Container.innerHTML = `
    <div class="services-container-homepage">
-        <h1>Our Amazing Services</h1>
+        <h1 class="custom-h1">Our Amazing Services</h1>
         <div class="services-grid">
             <div class="service-item">
                 
