@@ -598,9 +598,14 @@ ArrowToTop Section
 
 
 
+/* 
 
+.active {
+  font-weight: 600;
+  color: #5e13e0 !important;
+  text-decoration: none;
 
-
+} */
 
 
 
@@ -709,8 +714,8 @@ h1 {
 }
 
 .service-item {
-  background: #383838;
-  color: #ffffff;
+  background: #c5b8f8;
+  color: #000;
   padding: 10px 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -741,3 +746,113 @@ h1 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.why-choose-us {
+  padding: 60px 30px;
+  border: solid 1px rgba(73, 73, 73, 0.651);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+
+.our-comprehensive-services {
+  padding: 60px 30px;
+  
+}
+
+
+.service {
+  background-color: #f8f8f8c7;;
+}
+
+
+
+
+.service .hero {
+  background-color: #D5FAFC;;
+  color: black;
+  padding: 120px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+.service .hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: #7C3AED;
+background: linear-gradient(to right, #7C3AED 0%, #417CCF 100%);
+font-weight: 800;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.service h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: #7C3AED;
+background: linear-gradient(to right, #5b2ab1 0%, #406fb1 100%);
+font-weight: 800;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+.service .hero p {
+  font-size: 1.2rem;
+}
+.service .features {
+  margin: 40px 0;
+}
+.service .feature-item {
+  padding: 30px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  text-align: center;
+}
+.service .feature-item:hover {
+  transform: translateY(-5px);
+}
+.service  .service-list {
+  margin: 0px 0;
+}
+.service  .list-group-item {
+  border: none;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.service  .list-group-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.service  .list-group-item .icon {
+  font-size: 2rem;
+  color: #007bff;
+  margin-right: 15px;
+}

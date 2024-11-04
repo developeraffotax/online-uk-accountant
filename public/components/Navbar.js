@@ -1,4 +1,8 @@
 function Navbar() {
+
+
+  
+
   const navbar = document.getElementById("Navbar");
   const Container = document.createElement("div");
   Container.classList.add("container");
@@ -12,14 +16,14 @@ function Navbar() {
       srcset=""
     />
   </a>
-  <ul class="navbar-nav d-none d-lg-flex">
+  <ul class="navbar-nav d-none d-lg-flex navbar-js-custom-use">
 
   <li class="nav-item">
       <a class="nav-link" href="/index.html">Home</a>
     </li>
 
-    <li class="nav-item">
-      <a class="nav-link" href="/our-services.html">Our Services</a>
+    <li class="nav-item ">
+      <a class="nav-link " href="/our-services.html">Our Services</a>
     </li>
 
 
@@ -32,7 +36,7 @@ function Navbar() {
     </li>
 
      <li class="nav-item">
-      <a class="nav-link" href="/contact-us.html">Contact Us</a>
+      <a class="nav-link " href="/contact-us.html">Contact Us</a>
     </li>
 
     
@@ -93,5 +97,33 @@ function Navbar() {
 </div>
     `;
   navbar.appendChild(Container);
+
+  // const currentUrl = window.location.href;
+  // const pathname = window.location.pathname;
+
+
+
+
+
+  // const list = document.querySelector(".navbar-js-custom-use").children
+
+  
+
+  // Array.from(list).forEach((el) => {
+
+  //   console.log(el.querySelector('a').pathname)
+  //   console.log(pathname)
+
+
+
+  //   if (pathname === el.querySelector('a').pathname) {
+  //     el.classList.add('active')
+  //   }
+
+  // })
+
+
+
+
 }
 Navbar();
