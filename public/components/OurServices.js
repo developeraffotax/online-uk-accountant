@@ -7,7 +7,7 @@ function OurServices() {
     BG.classList.add("hero-bg");
   
     Container.innerHTML = `
-   <div class="services-container mt-4">
+   <div class="services-container-homepage">
         <h1>Our Amazing Services</h1>
         <div class="services-grid">
             <div class="service-item">

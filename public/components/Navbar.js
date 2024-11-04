@@ -15,26 +15,24 @@ function Navbar() {
   <ul class="navbar-nav d-none d-lg-flex">
 
   <li class="nav-item">
-      <a class="nav-link" href="#Herosection">Home</a>
+      <a class="nav-link" href="/index.html">Home</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="#our-services">Our Services</a>
+      <a class="nav-link" href="/our-services.html">Our Services</a>
     </li>
 
 
-    <li class="nav-item">
-      <a class="nav-link" href="#who-we-help">Who we help</a>
-    </li>
+    
     
    
 
     <li class="nav-item">
-      <a class="nav-link" href="#about-us">About Us</a>
+      <a class="nav-link" href="/about-us.html">About Us</a>
     </li>
 
      <li class="nav-item">
-      <a class="nav-link" href="#contact-us">Contact Us</a>
+      <a class="nav-link" href="/contact-us.html">Contact Us</a>
     </li>
 
     
@@ -76,20 +74,18 @@ function Navbar() {
   <div class="offcanvas-body">
     <ul class="navbar-nav" data-bs-dismiss="offcanvas">
       <li class="nav-item">
-        <a class="nav-link" href="#Herosection">Home</a>
+        <a class="nav-link" href="/index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#our-services">Our Services</a>
+        <a class="nav-link" href="/our-services.html">Our Services</a>
       </li>
+      
       <li class="nav-item">
-        <a class="nav-link" href="#who-we-help">Who we help</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about-us">About Us</a>
+        <a class="nav-link" href="/about-us.html">About Us</a>
       </li>
 
        <li class="nav-item">
-        <a class="nav-link" href="#contact-us">Contact Us</a>
+        <a class="nav-link" href="/contact-us.html">Contact Us</a>
       </li>
     </ul>
     

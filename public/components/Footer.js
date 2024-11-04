@@ -12,31 +12,33 @@ function Footer() {
             </div>
             <div class="nav-links d-flex flex-column mt-4">
               
+               
               <ul class="nav justify-content-left row-2">
                
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#Herosection">Home</a>
+                  <a class="nav-link" href="/index.html">Home</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#our-services">Our Services</a>
+                  <a class="nav-link" href="/our-services.html">Our Services</a>
                 </li>
 
+             
                 <li class="nav-item">
-                  <a class="nav-link" href="#who-we-help">Who we help</a>
+                  <a class="nav-link" href="/about-us.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about-us">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact-us">Contact Us</a>
+                  <a class="nav-link" href="/contact-us.html">Contact Us</a>
                 </li>
                 
               </ul>
             </div>
             <div class="copyrights mt-4 black">
-              © 2024 <a class='text-decoration-underline' href="https://onlineukaccountant.co.uk">Online Uk Accountant</a>. All rights reserved
+              © 2024 <a class='text-decoration-underline' href="https://onlineukaccountant.co.uk">ONLINE ACCOUNTANT LTD
+
+
+</a>. All rights reserved
             </div>
           </div>
           
