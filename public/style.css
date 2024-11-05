@@ -714,18 +714,28 @@ h1 {
 }
 
 .service-item {
-  background: #c5b8f8;
+  background: #2c2c2c;
   color: #000;
   padding: 10px 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.5s ease, box-shadow 0.3s ease, scale 0.5s ease-out;
   text-align: left;
   cursor: pointer;
+
 }
 
+.service-item h2::before {
+  content: '• ';
+
+}
+
+
+
+
 .service-item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
+  scale: 1.05;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
