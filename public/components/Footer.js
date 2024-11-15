@@ -31,6 +31,10 @@ function Footer() {
                 <li class="nav-item">
                   <a class="nav-link" href="/contact-us.html">Contact Us</a>
                 </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/careers.html">Careers</a>
+                </li>
                 
               </ul>
             </div>
