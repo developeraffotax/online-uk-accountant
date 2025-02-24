@@ -10,8 +10,9 @@ function Navbar() {
   <div class="nav-left d-flex" id="navbarNav">
   <a class="navbar-brand me-5" href="/index.html">
     <img
+        style="width: 100px; height: 100px;"
       class="BrandLogo"
-      src="./Images/logoiq.png"
+      src="./Images/logo.png"
       alt=""
       srcset=""
     />
