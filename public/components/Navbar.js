@@ -7,10 +7,10 @@ function Navbar() {
   const Container = document.createElement("div");
   Container.classList.add("container");
   Container.innerHTML = `
-  <div class="nav-left d-flex" id="navbarNav">
+  <div class="nav-left d-flex justify-content-start align-items-center" id="navbarNav">
   <a class="navbar-brand me-5" href="/index.html">
     <img
-        style="width: 100px; height: 100px;"
+        style="width: 150px; height:80px;  "
       class="BrandLogo"
       src="./Images/logo.png"
       alt=""
