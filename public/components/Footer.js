@@ -7,7 +7,7 @@ function Footer() {
           <div class="col-12 col-md-10 left-section ">
             <div class="brand-logo">
               <a class="navbar-brand" href="#">
-                <img class="BrandLogo" src="./Images/logoiq.png" alt="" srcset="" />
+                <img class="BrandLogo" src="./Images/logo.png" alt="" srcset="" />
               </a>
             </div>
             <div class="nav-links d-flex flex-column mt-4">
