@@ -14,6 +14,7 @@
         
         <link rel="stylesheet" href="careers.css" />
         <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
         <title>Careers | Online Uk Accountant</title>
       </head>
 
@@ -50,14 +51,14 @@
                         <h3 class="customh3">Bookkeeper and Payroll Manager </h3>
                         <p><b>Job Overview:</b> As a Bookkeeper and Payroll Manager, you will be responsible for managing day-to-day financial transactions, maintaining accurate records, and overseeing payroll processes. Your role will ensure that our clients’ financials and employee compensations are handled efficiently and in compliance with tax regulations and best practices.</p>
                         
-                        <button>Apply Now</button>
+                        <button class="applyBtn">Apply Now</button>
                         <button id="job1">Details</button>
                     </div>
                     
                     <div class="job-card">
                       <h3 class="customh3"> Account Administrator</h3>
                         <p><b>Job Overview:</b>As an Account Administrator, you will play a key role in handling client accounts, managing administrative tasks, and supporting the bookkeeping and payroll teams. Your organizational skills and attention to detail will help maintain the accuracy and efficiency of financial operations while ensuring client satisfaction.</p>
-                        <button>Apply Now</button>
+                        <button class="applyBtn">Apply Now</button>
                         <button id="job2">Details</button>
                     </div>
 
@@ -194,6 +195,74 @@
                       
                   </div>
               </div>
+
+
+
+
+
+
+
+              <div class="fixed top-0 left-0 z-[999] w-[100vw] h-[100vh] bg-gray-800 bg-opacity-50 flex justify-center items-center " style="display: none;" id="job-form">
+                <!-- Modal -->
+                <div class="bg-white rounded-lg p-6 w-96 shadow-lg absolute top-[30%] left-[50%] -translate-x-[50%]">
+                    <h2 class="text-2xl font-bold mb-4 text-center">Job Application</h2>
+                    <!-- Form Start -->
+                    <form  method="POST" >
+                        <!-- Name Input -->
+                        <div class="mb-4">
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" required>
+                        </div>
+        
+                        <!-- Email Input -->
+                        <div class="mb-4">
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" required>
+                        </div>
+        
+                        <!-- Job Role Select -->
+                        <div class="mb-4">
+                            <label for="role" class="block text-sm font-medium text-gray-700">Job Role</label>
+                            <select id="role" name="role" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                                <option value="developer">Developer</option>
+                                <option value="accountant">Accountant</option>
+                            </select>
+                        </div>
+        
+                        <!-- Upload CV Input -->
+                        <div class="mb-4">
+                            <label for="cv" class="block text-sm font-medium text-gray-700">Upload CV</label>
+                            <input type="file" id="cv" name="cv" class="mt-1 block w-full text-sm text-gray-500 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500" required>
+                        </div>
+        
+                        <!-- Submit Button -->
+                        <div class="flex justify-between gap-2 ">
+                          <button  id="closeBtn" class="px-6 py-2 bg-gray-700 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Cancel</button>
+                            <button type="submit" class="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Submit</button>
+                        </div>
+                    </form>
+                    <!-- Form End -->
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             
         </section>
         
@@ -251,7 +320,11 @@
             const btn1 = document.getElementById('job1');
             const btn2 = document.getElementById('job2');
 
+            const applyBtn = document.querySelectorAll('.applyBtn');
 
+            const job_form = document.getElementById('job-form');
+
+            const closeBtn = document.getElementById('closeBtn')
 
             // Get the modal, backdrop, and close button elements
             const modal = document.getElementById('modal');
@@ -292,22 +365,45 @@
 
 
 
+            
 
             btn1.addEventListener('click', openModal)
             btn2.addEventListener('click', openModal2)
 
 
 
+            function openForm() {
+              job_form.style.display = 'block'
+            }
+
+            function closeForm() {
+              job_form.style.display = 'none'
+            }
+
+
+            applyBtn.forEach((btn) => {
+              return btn.addEventListener('click', openForm)
+            })
+
+            
+            closeBtn.addEventListener('click', closeForm)
+
+
+
+
+            function submitFormHandler(event) {
+              event.preventDefault()
+
+              console.log(event);
+
+              window.location.href = "/"
+            }
 
 
 
 
 
-
-
-
-
-
+            job_form.addEventListener("submit", submitFormHandler)
 
 
 
