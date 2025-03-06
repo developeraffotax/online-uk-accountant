@@ -127,30 +127,16 @@ function CTA() {
 
 
 
-    <!-- Financial Figures Section -->
-       <section id="financial-figures" class="bg-white/70 shadow-lg rounded-lg p-8 mb-8 w-[100%]">
-            <h2 class="text-3xl font-semibold text-center text-cyan-600 mb-6 font-[poppins]">Financial Figures</h2>
-            <div class="flex flex-wrap justify-around">
-                <div class="text-center mb-4">
-                    <h3 class="text-2xl font-semibold text-gray-800">$20M+</h3>
-                    <p class="text-lg text-gray-600">Annual Revenue</p>
-                </div>
-                <div class="text-center mb-4">
-                    <h3 class="text-2xl font-semibold text-gray-800">500+</h3>
-                    <p class="text-lg text-gray-600">Clients Served</p>
-                </div>
-                <div class="text-center mb-4">
-                    <h3 class="text-2xl font-semibold text-gray-800">30+</h3>
-                    <p class="text-lg text-gray-600">Team Members</p>
-                </div>
-            </div>
-        </section>
 
 
 
 
 
     </div>
+
+     
+
+
   </div>
 </section>
   `;
