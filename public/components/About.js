@@ -109,7 +109,7 @@ function CTA() {
                 </div>
                 <div class="text-center">
                     <img src="./Images/person.png" alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4">
-                    <h3 class="text-xl font-semibold text-gray-800">David Rhodes
+                    <h3 class="text-xl font-semibold text-gray-800">Daniel Rhodes
 
 </h3>
                     <p class="text-gray-600">Director </p>
