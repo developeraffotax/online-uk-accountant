@@ -9,7 +9,7 @@ function Herosection() {
           <div class="text-wrapper col-12 col-lg-7">
             <div class="text-body">
               <h1 class=" fw-bold">
-                We provide online accountancy services to UK businessess
+                We provide online bookkeeping services to UK businessess
               </h1>
               <p class="mt-3">
                 Whether you are an Individual, Sole Trader, Limited Company, Small Business, Freelancer, Contractor, Partnership, Landlord or Start Up we have the online accounting package for you.
