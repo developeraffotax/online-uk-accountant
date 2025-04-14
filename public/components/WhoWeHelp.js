@@ -8,7 +8,7 @@ function WhoWeHelp() {
 >
   <h2 class="title fw-bold">Who we help!</h2>
   <p class="">
-    We provide Comprehensive accountancy services for every business type, whether you're an Individual, Sole Trader, Limited Company, Small Business, Freelancer, Contractor, Partnership, Landlord or Start Up we have the online accounting package for you.
+    We provide Comprehensive bookkeeping services for every business type, whether you're an Individual, Sole Trader, Limited Company, Small Business, Freelancer, Contractor, Partnership, Landlord or Start Up we have the online perfect package for you.
 
   </p>
 </div>
@@ -22,7 +22,7 @@ function WhoWeHelp() {
     <div class="text">
       <div class="title fw-bold text-center">Individual</div>
       <div class="description text-center">
-        Simplicity and complete accounting support for an unbeatable price
+        Simplicity and complete bookkeeping support for an unbeatable price
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@ function WhoWeHelp() {
     <div class="text">
       <div class="title fw-bold text-center">Sole Trader</div>
       <div class="description text-center">
-        Simplicity and complete accounting support for an unbeatable price
+        Simplicity and complete bookkeeping support for an unbeatable price
       </div>
     </div>
   </div>
@@ -44,7 +44,7 @@ function WhoWeHelp() {
     <div class="text">
       <div class="title fw-bold text-center">Limited Company</div>
       <div class="description text-center">
-        Expert accounting assistance for your growing business
+        Expert bookkeeping assistance for your growing business
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@ function WhoWeHelp() {
     <div class="text">
       <div class="title fw-bold text-center">Small Business</div>
       <div class="description text-center">
-        Expert accountancy services for small-businesses
+        Expert bookkeeping services for small-businesses
       </div>
     </div>
   </div>
@@ -66,7 +66,7 @@ function WhoWeHelp() {
     <div class="text">
       <div class="title fw-bold text-center">Freelancer</div>
       <div class="description text-center">
-       Expert accountancy services for self-employed freelancers
+       Expert bookkeeping services for self-employed freelancers
       </div>
     </div>
   </div>
@@ -77,7 +77,7 @@ function WhoWeHelp() {
     <div class="text">
       <div class="title fw-bold text-center">Contractors</div>
       <div class="description text-center">
-        Experienced accounting services for contractors
+        Experienced bookkeeping services for contractors
       </div>
     </div>
   </div>

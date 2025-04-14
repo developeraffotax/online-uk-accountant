@@ -9,10 +9,11 @@ function Herosection() {
           <div class="text-wrapper col-12 col-lg-7">
             <div class="text-body">
               <h1 class=" fw-bold">
-                We provide Bookkeeping & Accounting services to UK businesses
+                We provide Bookkeeping services to UK businesses
               </h1>
               <p class="mt-3">
-                Whether you are an Individual, Sole Trader, Limited Company, Small Business, Freelancer, Contractor, Partnership, Landlord or Start Up we have the online accounting package for you.
+              We offer expert online bookkeeping services tailored for Individuals, Sole Traders, Limited Companies, Freelancers, Contractors, Partnerships, Landlords, Startups, and Small Businesses. No matter your business size or structure, we have the perfect package for you.
+
               </p>
             </div>
             <div class="btns-group mt-3">
@@ -38,3 +39,8 @@ function Herosection() {
   Herosection.appendChild(BG);
 }
 Herosection();
+
+
+
+
+// Whether you are an Individual, Sole Trader, Limited Company, Small Business, Freelancer, Contractor, Partnership, Landlord or Start Up we have the online package for you.

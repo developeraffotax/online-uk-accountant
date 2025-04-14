@@ -13,8 +13,8 @@ function CTA() {
         <div class="row justify-content-xl-center">
           <div class="col-12 col-xl-11">
             <h2 class="mb-3 text-white text-5xl font-[poppins]">About Us</h2>
-            <p class="text-light mb-3">Online Accountant Ltd is a UK-based accountancy firm specializing in cloud accounting and bookkeeping services. We help businesses streamline their finances using Xero, QuickBooks Online (QBO), and other leading cloud-based accounting software. Our expert team ensures accurate bookkeeping, financial reporting, and seamless integration of digital accounting tools. We focus on efficiency, automation, and real-time financial insights to support business growth. With a client-centric approach, we provide tailored solutions to meet the unique needs of small and medium-sized enterprises. At Online Accountant Ltd, we make cloud accounting simple, efficient, and stress-free.</p>
-            <p class="text-light mb-5"><span class="font-bold">Vision  At Online Accountant Ltd, </span>our vision is to be the leading provider of innovative and seamless online accounting solutions. We strive to empower businesses of all sizes with efficient, technology-driven financial management services that enhance productivity, foster growth, and ensure financial clarity. Our goal is to redefine the accounting industry by making financial processes more accessible, transparent, and automated, enabling businesses to focus on their core operations while we handle their financial needs with expertise and precision.</p>
+            <p class="text-light mb-3">Online Accountant Ltd is a UK-based bookkeeping firm specializing in bookkeeping services. We help businesses streamline their finances using Xero, QuickBooks Online (QBO), and other leading cloud-based bookkeeping software. Our expert team ensures accurate bookkeeping, financial reporting, and seamless integration of digital bookkeeping tools. We focus on efficiency, automation, and real-time financial insights to support business growth. With a client-centric approach, we provide tailored solutions to meet the unique needs of small and medium-sized enterprises. At Online Accountant Ltd, we make cloud bookkeeping simple, efficient, and stress-free.</p>
+            <p class="text-light mb-5"><span class="font-bold">Vision  At Online Accountant Ltd, </span>our vision is to be the leading provider of innovative and seamless online bookkeeping solutions. We strive to empower businesses of all sizes with efficient, technology-driven financial management services that enhance productivity, foster growth, and ensure financial clarity. Our goal is to redefine the bookkeeping industry by making financial processes more accessible, transparent, and automated, enabling businesses to focus on their core operations while we handle their financial needs with expertise and precision.</p>
             <div class="row gy-4 gy-md-0 gx-xxl-5X">
               <div class="col-12 col-md-6">
                 <div class="d-flex">
@@ -25,7 +25,7 @@ function CTA() {
                   </div>
                   <div>
                     <h2 class="h4 mb-3 text-white">Expertise</h2>
-                    <p class="text-light mb-0">Our team consists of qualified accountants with extensive industry experience.</p>
+                    <p class="text-light mb-0">Our team consists of qualified bookkeeping experts with extensive industry experience.</p>
                   </div>
                 </div>
               </div>
@@ -54,14 +54,14 @@ function CTA() {
         <section class="bg-white/60 shadow-lg rounded-lg p-12 mb-8">
             <h2 class="text-3xl font-semibold text-start text-cyan-600 mb-6 font-[poppins]">Our Mission</h2>
             <p class="text-lg leading-relaxed text-gray-700 mb-6">
-                Our mission at <strong>Online Accountant Ltd</strong> is to deliver reliable, efficient, and scalable online accounting solutions tailored to the evolving needs of modern businesses. We are committed to:
+                Our mission at <strong>Online Accountant Ltd</strong> is to deliver reliable, efficient, and scalable online bookkeeping solutions tailored to the evolving needs of modern businesses. We are committed to:
             </p>
             <ul class="list-disc pl-8 text-lg text-gray-700 space-y-2 text-sm">
-                <li>Leveraging the latest digital tools to streamline accounting processes and enhance financial decision-making.</li>
+                <li>Leveraging the latest digital tools to streamline bookkeeping processes and enhance financial decision-making.</li>
                 <li>Providing exceptional client service through a team of dedicated and skilled professionals.</li>
                 <li>Ensuring accuracy, efficiency, and security in financial data management.</li>
-                <li>Empowering businesses to optimize their financial performance through strategic insights and innovative accounting solutions.</li>
-                <li>Continuously adapting to industry advancements to offer cutting-edge accounting support that drives success and sustainability.</li>
+                <li>Empowering businesses to optimize their financial performance through strategic insights and innovative bookkeeping solutions.</li>
+                <li>Continuously adapting to industry advancements to offer cutting-edge bookkeeping support that drives success and sustainability.</li>
             </ul>
         </section>
 
@@ -69,16 +69,16 @@ function CTA() {
         <section class="bg-white/60 shadow-lg rounded-lg p-12 mb-12">
             <h2 class="text-3xl font-semibold text-start text-cyan-600 mb-6 font-[poppins]">Our Partnerships</h2>
             <p class="text-lg leading-relaxed text-gray-700 mb-6">
-                At <strong>Online Accountant Ltd</strong>, we believe that strong partnerships are the foundation of sustainable business success. We collaborate with a diverse network of technology providers, financial institutions, and business consultants to offer our clients comprehensive and forward-thinking accounting solutions. Our partnerships enable us to:
+                At <strong>Online Accountant Ltd</strong>, we believe that strong partnerships are the foundation of sustainable business success. We collaborate with a diverse network of technology providers, financial institutions, and business consultants to offer our clients comprehensive and forward-thinking bookkeeping solutions. Our partnerships enable us to:
             </p>
             <ul class="list-disc pl-8 text-lg text-gray-700 space-y-2 text-sm ">
-                <li>Integrate advanced accounting software and cloud-based financial tools for enhanced service delivery.</li>
+                <li>Integrate advanced bookkeeping software and cloud-based financial tools for enhanced service delivery.</li>
                 <li>Work closely with industry experts to provide up-to-date financial insights and best practices.</li>
                 <li>Foster long-term relationships with businesses, helping them navigate financial challenges and achieve their goals.</li>
                 <li>Enhance our service offerings through strategic collaborations, ensuring that our clients receive the best possible support for their financial operations.</li>
             </ul>
             <p class="text-lg leading-relaxed text-gray-700 mt-6">
-                Through our vision, mission, and strong partnerships, <strong>Online Accountant Ltd</strong> is dedicated to revolutionizing online accounting, empowering businesses, and fostering financial success in an ever-evolving digital landscape.
+                Through our vision, mission, and strong partnerships, <strong>Online Accountant Ltd</strong> is dedicated to revolutionizing online bookkeeping, empowering businesses, and fostering financial success in an ever-evolving digital landscape.
             </p>
         </section>
 
@@ -92,7 +92,7 @@ function CTA() {
         <section id="who-we-are" class="  p-8 mb-8 w-[50%]">
             <h2 class="text-3xl font-semibold text-start text-white mb-6 font-[poppins]">Who We Are</h2>
             <p class="text-lg leading-relaxed text-gray-700">
-                At <strong>Online Accountant Ltd</strong>, we are passionate about providing reliable, efficient, and scalable online accounting solutions tailored to the unique needs of modern businesses. Our dedicated team of professionals is committed to ensuring that your financial data is managed with accuracy and security.
+                At <strong>Online Accountant Ltd</strong>, we are passionate about providing reliable, efficient, and scalable online bookkeeping solutions tailored to the unique needs of modern businesses. Our dedicated team of professionals is committed to ensuring that your financial data is managed with accuracy and security.
             </p>
         </section>
 

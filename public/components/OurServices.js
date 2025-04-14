@@ -20,22 +20,9 @@ function OurServices() {
                   
                   
               </div>
-              <div class="service-item">
-                <a href="/accounts.html"><h2>Accounts✅</h2></a>
-                  
-                  
-              </div>
-              <div class="service-item">
-                <a href="/corporation-tax.html"><h2>Corporation Tax✅</h2></a>
-                  
-                  
-              </div>
+              
   
-               <div class="service-item">
-                <a href="/self-assessment.html"> <h2>Self-Assessment✅</h2></a>
-                 
-                  
-              </div>
+              
   
                <div class="service-item">
                 <a href="/payroll.html"> <h2>Payroll Services✅</h2></a>
